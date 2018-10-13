@@ -26,6 +26,12 @@ $ go test ./xxx
 $ go test -v xxx_test.go
 ```
 
+* 特定のテスト実行
+`--run`で指定した文字列を含むテストを実行。
+
+```
+$ go test -v {dir}/file_test.go --run hoge
+``` 
 ## gomock
 ```
 $ mockgen -source={file}.go -destination {dis}/{file}.go
