@@ -32,3 +32,8 @@ $ go test -v xxx_test.go
 ```
 $ go test -v {dir}/file_test.go --run hoge
 ``` 
+## gomock
+* 
+```
+$ mockgen -source={file}.go -destination {dis}/{file}.go
+```
