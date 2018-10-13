@@ -25,3 +25,9 @@ $ go test ./xxx
 ```
 $ go test -v xxx_test.go
 ```
+
+## gomock
+* 
+```
+$ mockgen -source={file}.go -destination {dis}/{file}.go
+```
