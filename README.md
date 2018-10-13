@@ -31,3 +31,5 @@ $ go test -v xxx_test.go
 ```
 $ mockgen -source={file}.go -destination {dis}/{file}.go
 ```
+`-source`: インタフェースが含まれるソースを指定  
+`-destination`: 出力先
