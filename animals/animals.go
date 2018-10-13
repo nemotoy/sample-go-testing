@@ -2,7 +2,7 @@ package animals
 
 import (
 	"fmt"
-	"local/05_testCode/foods"
+	"sample-go-testing/foods"
 )
 
 type Duck struct {
